@@ -10,6 +10,8 @@ import android.widget.Button;
 
 public class PopLogin extends Activity {
 
+    Button buttonLogIn;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +20,18 @@ public class PopLogin extends Activity {
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
+
+        buttonLogIn = (Button)findViewById(R.id.btnLogin);
+
+        buttonLogIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent buttonLogIn = new Intent(PopLogin.this,Main2Activity.class);
+                startActivity(buttonLogIn);
+            }
+        });
+
+
 
 
 
