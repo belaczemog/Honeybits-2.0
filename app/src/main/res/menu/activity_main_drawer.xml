@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/Sing_in"
+            android:icon="@drawable/ic_perm_identity_white_24dp"
+            android:title="Sign in" />
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/Get_Honey"
+
+            android:title="Get on Honeybits" />
+    </group>
+
+</menu>

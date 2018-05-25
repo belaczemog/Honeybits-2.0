@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Register"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:background="@color/colorLine"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="74dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_marginTop="77dp"
+            android:hint="Name"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="61dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:hint="LastName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="61dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:text="Name on HoneyBits are public, but optional." />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Email" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="211dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="134dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_marginTop="77dp"
+            android:hint="Password"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="61dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="134dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="61dp" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+
+        android:id="@+id/btn_login"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:textColor="#FFFFFF"
+        android:autoText="true"
+        android:background="@drawable/rounded_button_yellow"
+        android:text="Get Started" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="290dp">
+
+    <Button
+        android:id="@+id/signinbutton"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/googlebutton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:background="#ffffff"
+        android:text="sign in"
+        android:textColor="#FFDF51" />
+
+    <Button
+        android:id="@+id/registerbutton"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/googlebutton"
+        android:layout_alignTop="@+id/signinbutton"
+        android:background="#ffffff"
+        android:text="Register"
+        android:textColor="#FFDF51" />
+
+
+
+    <Button
+        android:id="@+id/googlebutton"
+        android:drawableLeft="@drawable/google"
+        android:drawablePadding="@dimen/nav_header_vertical_spacing"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:background="#ffffff"
+        android:text="Continue with google" />
+
+    <Button
+        android:id="@+id/facebookbutton"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:background="#3B5998"
+        android:drawableLeft="@drawable/facebook"
+        android:text="Continue with Facebook" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sign in Honeybits"
+        />
+
+</RelativeLayout>

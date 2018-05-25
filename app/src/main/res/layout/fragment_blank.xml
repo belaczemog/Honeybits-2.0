@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/panal_abeja"
+            />
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="255dp"
+            android:textStyle=""
+            android:textSize="18dp"
+            android:textColor="@android:color/background_light"
+            android:text="Sign in to find local beekeepers and see presonalized recommendations"
+            />
+
+        <Button
+
+            android:id="@+id/btn_login"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="107dp"
+            android:textColor="#ffdf51"
+            android:autoText="true"
+            android:background="@drawable/rounded_button"
+            android:text="Get Started" />
+
+
+</RelativeLayout>
