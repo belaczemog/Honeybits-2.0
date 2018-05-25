@@ -19,21 +19,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Pop"
-            android:theme="@style/AppTheme.CustomTheme">
-
-        </activity>
-
-        <activity android:name=".PopRegister"
-            android:theme="@style/AppTheme.CustomTheme">
-
-        </activity>
-
-        <activity android:name=".PopLogin"
-            android:theme="@style/AppTheme.CustomTheme">
-
-        </activity>
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".PopRegister"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".PopLogin"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
