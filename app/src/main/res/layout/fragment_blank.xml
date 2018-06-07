@@ -19,18 +19,17 @@
             android:src="@drawable/panal_abeja"
             />
 
-        <TextView
-            android:layout_width="290dp"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="255dp"
-            android:textStyle=""
-            android:textSize="18dp"
-            android:textColor="@android:color/background_light"
-            android:text="Sign in to find local beekeepers and see presonalized recommendations"
-            />
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:text="Sign in to find local beekeepers and see presonalized recommendations"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp"
+        android:textStyle="" />
 
-        <Button
+    <Button
 
             android:id="@+id/btn_login"
             android:layout_width="318dp"

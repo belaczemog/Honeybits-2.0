@@ -10,7 +10,6 @@ public class tabsPager extends FragmentStatePagerAdapter {
     String [] titles=new String[]{"Your feed","HoneyBits Favorites"};
 
     public tabsPager(FragmentManager fm) {
-
         super(fm);
     }
 
@@ -31,7 +30,6 @@ public class tabsPager extends FragmentStatePagerAdapter {
                 return blank2Fragment;
         }
         return null;
-
     }
 
     @Override
